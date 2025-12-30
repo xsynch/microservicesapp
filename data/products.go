@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 	"regexp"
-	"slices"
+	
 
 	"time"
 
@@ -82,16 +82,16 @@ func UpdateProduct(id int, p* Product) error {
 	return nil 
 }
 
-func DeleteProduct(id int  ) error {
-	_,pos,err := findProduct(id)
-	if err != nil {
-		return err
-	}
-	productList = slices.Delete(productList,pos,pos+1)
-	fmt.Println("found",pos)
-	return nil 
+// func DeleteProduct(id int  ) error {
+// 	_,pos,err := findProduct(id)
+// 	if err != nil {
+// 		return err
+// 	}
+// 	productList = slices.Delete(productList,pos,pos+1)
+// 	fmt.Println("found",pos)
+// 	return nil 
 	
-}
+// }
 
 var ErrorProductNotFound = fmt.Errorf("Product Not found")
 
