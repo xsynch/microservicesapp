@@ -8,6 +8,7 @@ require (
 )
 
 require (
+	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.12 // indirect
 	github.com/go-openapi/analysis v0.24.2 // indirect
 	github.com/go-openapi/errors v0.22.6 // indirect
@@ -31,6 +32,7 @@ require (
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/go-viper/mapstructure/v2 v2.4.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
+	github.com/gorilla/handlers v1.5.2 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
 	go.mongodb.org/mongo-driver v1.17.6 // indirect
